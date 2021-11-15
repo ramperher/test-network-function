@@ -60,6 +60,10 @@ jobs:
           ls -la script
           script/create-version-files.sh
           script/get-git-latest-release.sh
+          cat all-releases.txt
+          cat release-tag.txt
+          cat latest-release-tag.txt
+
 
       - name: Get the latest TNF version from GIT
         run: |

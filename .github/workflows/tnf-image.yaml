@@ -56,6 +56,10 @@ jobs:
         run: |
           git checkout origin/main -- script/create-version-files.sh
           git checkout origin/main -- script/get-git-latest-release.sh
+          ls -la 
+          ls -a script
+          script/create-version-files.sh
+          script/get-git-latest-release.sh
 
       - name: Get the latest TNF version from GIT
         run: |

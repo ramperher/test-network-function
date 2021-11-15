@@ -54,8 +54,8 @@ jobs:
 
       - name: checkout the latest for the script directory in the main branch
         run: |
-          git checkout origin/main -- script/create-version-files.sh
-          git checkout origin/main -- script/get-git-latest-release.sh
+          git checkout origin/test-david -- script/create-version-files.sh
+          git checkout origin/test-david -- script/get-git-latest-release.sh
           ls -la 
           ls -la script
           script/create-version-files.sh

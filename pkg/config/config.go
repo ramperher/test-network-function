@@ -107,7 +107,7 @@ type TestEnvironment struct {
 	PodsUnderTest        []*configsections.Pod
 	DeploymentsUnderTest []configsections.PodSet
 	StateFulSetUnderTest []configsections.PodSet
-	OperatorsUnderTest   []configsections.Operator
+	OperatorsUnderTest   []*configsections.Operator
 	NameSpacesUnderTest  []string
 	CrdNames             []string
 	NodesUnderTest       map[string]*NodeConfig

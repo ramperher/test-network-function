@@ -279,6 +279,5 @@ func generateNodes() map[string]interface{} {
 	nodes[cniPluginsField] = diagnostic.GetCniPlugins()
 	nodes[nodesHwInfo] = diagnostic.GetNodesHwInfo()
 	nodes[csiDriverInfo] = diagnostic.GetCsiDriverInfo()
-	nodes[initialRuntimeEnv] = diagnostic.GetInitialRuntimeEnv()
 	return nodes
 }
